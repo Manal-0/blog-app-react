@@ -1,12 +1,12 @@
-#Week-10 Assignment - MERN Stack Blog Application Deployment on AWS
-Student ID: SDA2020-Manal
-GitHub Repository: manal-0
-Date: May 2025
+# Week-10 Assignment - MERN Stack Blog Application Deployment on AWS
+-Student ID: SDA2020-Manal
+-GitHub Repository: manal-0
+-Date: May 2025
 
-#Project Overview
+# Project Overview
 For this project, I decided to deploy a MERN Stack (MongoDB, Express, React, Node.js) blog application on AWS. The goal was to build a fully functional application running efficiently on the cloud while following best practices for modern application deployment.
 
-#The project included the following steps:
+# The project included the following steps:
 
 Frontend (React + Vite): Hosted on S3 for fast loading times and excellent response.
 
@@ -18,7 +18,7 @@ Media Storage: Managed through S3 to ensure fast and reliable access to images, 
 
 Process Management: Used PM2 to ensure backend processes run continuously without interruption.
 
-#Technologies Used
+# Technologies Used
 AWS EC2: Hosting the backend.
 
 AWS S3: Hosting the frontend and media files.
@@ -31,7 +31,7 @@ Vite + React: For frontend development.
 
 Node.js + Express: For backend development.
 
-#Deployment Steps
+# Deployment Steps
 Clone the Project
 I cloned the project repository to the EC2 Ubuntu instance to begin deployment.
 
@@ -73,10 +73,10 @@ I confirmed that the frontend loaded correctly from the S3 website endpoint.
 
 I verified that the media upload functionality and API interactions were working.
 
-#What I Learned
+# What I Learned
 Throughout this project, I learned how to integrate various technologies like React, Express.js, and AWS services with MongoDB Atlas into a cohesive application.
 
-#Files and Deliverables
+# Files and Deliverables
 screenshots/
 A folder containing screenshots for each deployment step:
 
@@ -118,5 +118,5 @@ Screenshot showing the successful synchronization of the frontend build folder t
 
 README.md
 This file documenting the entire deployment workflow.
-#Conclusion
+# Conclusion
 This project gave me a solid understanding of deploying a full-stack application on AWS, from setting up the backend to hosting static files.
