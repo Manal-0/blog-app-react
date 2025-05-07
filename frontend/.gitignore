@@ -25,6 +25,6 @@ dist-ssr
 
 # Ignore all files in the .env directory
 .env/*
-
+.env
 # Ignore all files in the .env.local directory
 .env.local/*
